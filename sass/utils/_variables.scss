@@ -1,0 +1,111 @@
+////////////////////////////////////////////////////////////////////////////////
+// "vars" partial
+// --------------------
+//
+////////////////////////////////////////////////////////////////////////////////
+
+//
+// Variables
+////////////////////////////////////////
+
+
+//
+// Widths
+//
+$first_sidebar_width: 190px;
+$second_sidebar_width: 200px;
+$page_width: 800px;
+
+//
+// Breakpoints
+//
+$tablet: $page_width; //This is set to page width by default
+$mobile: 480px;
+
+$sm-min: 760px;
+$md-min: 980px;
+$lg-min: 1200px;
+
+//
+// Container
+//
+$menupanel-width-xs:  220px;
+$menupanel-width-md:  250px;
+
+$container-gutter-xs: 20px;
+$container-gutter-sm: 80px;
+$container-gutter-md: 65px;
+$container-gutter-lg: 70px;
+
+$container-width-sm:  $sm-min;
+$container-width-md:  $md-min - $menupanel-width-md;
+$container-width-lg:  $lg-min - $menupanel-width-md;
+
+
+
+$content-max-width:   950px;
+
+//
+// Heights
+//
+$navigation_height: 40px;
+$footer_height:     auto;
+$header_height:     60px;
+
+//
+// Padding
+//
+$section_padding: 10;
+$mobile_padding: 5;
+
+//
+// Backgrounds, change these when you get started with your theme.
+//
+$border:              1px dotted #888;
+$header_bg:           #fff;
+$footer_bg:           #fff;
+$sidebar_first_bg:    #fff;
+$sidebar_second_bg:   #fff;
+$navigation_bg:       #fff;
+
+//
+// Fonts
+//
+$font_primary:      helvetica, Arial, sans-serif;
+$font_secondary:    helvetica, Arial, sans-serif;
+$font_heading:      helvetica, Arial, sans-serif;
+$monospace_font:    "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+
+$font_avante_book:  $font_primary;
+$font_avante_bold:  $font_heading;
+$font_karla:        $font_secondary;
+
+//
+// Colors
+//
+$base_color:            #00263c;
+$footer_color:          #fffefe;
+
+$color_mustard:         #e0e4cd;
+$color_mustard_hover:   #eceee3;
+$color_orange:          #f36a24;
+$color_turquiose:       #aadcd9;
+
+$link_color:            $base_color;
+$visited_link_color:    $base_color;
+$active_link_color:     inherit;
+
+$main_text_color:       $base_color;
+$header_text_color:     #000;
+$selection_text_color:  #fff;
+$selection_bg_color:    #fe57a1;
+
+$btn-color:             #259ed9;
+$btn-color-lighter:     #259ed9;
+
+$btn-dark:              #259ed9;
+$btn-dark-hover:        #5bb5e1;
+$btn-light:             #aadcd9;
+$btn-light-hover:       #ffffff;
+$btn-white:             #ffffff;
+
